@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "venv/bin/python3.7",
+  "editor.tabSize": 4,
+  "indentRainbow.ignoreErrorLangues": [
+    "python"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true
+}
