@@ -2,24 +2,16 @@
 
 A simulation of planets orbitting a central mass
 
-## Install and Run
-
-**1. Create a virtual environment**
+## Install
 
 ```sh
-$ virtualenv venv
+$ ./bin/install
 ```
 
-**2. Install dependencies**
+## Run
 
 ```sh
-$ pip3 install -r requirements.txt
-```
-
-**3. Start the project**
-
-```sh
-$ python3 start.py
+$ ./bin/start
 ```
 
 ## License

@@ -1,7 +1,9 @@
+"""Setup file for the satellite physics project
+"""
 from setuptools import setup, find_packages
 
 with open('LICENSE') as f:
-      license = f.read()
+    LICENSE_TEXT = f.read()
 
 setup(name='satellite-physics',
       version='0.1.0',
@@ -9,6 +11,6 @@ setup(name='satellite-physics',
       author='Jacob Daitzman',
       author_email='jdtzmn@gmail.com',
       url='https://github.com/jdtzmn/satellite-physics',
-      license=license,
+      license=LICENSE_TEXT,
       packages=find_packages()
-)
+      )
